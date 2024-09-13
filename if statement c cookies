@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+	int cookies;
+
+	cout << "Enter amount of cookies:" << endl;
+	cin >> cookies;
+
+	if (cookies < 5)
+		cout << "that's not enough cookies!" << endl;
+	else if (cookies < 10)
+		cout << "thats a reasonable number of cookies." << endl;
+
+	else if (cookies < 15)
+		cout << "thats a lot of cookies, can i have one?" << endl;
+
+	else 
+		cout << "SUMMON THE COOKIE MONSTER OM NOM NOM!" << endl;
+}
