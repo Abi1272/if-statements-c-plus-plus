@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+  char cats;
+
+  cout << "Do you like cats:" << endl;
+  cin >> cats;
+  if (cats == 'y'
+  cout << "meow" << endl;
+}
