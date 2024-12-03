@@ -4,8 +4,8 @@ int main() {
 
   char cats;
 
-  cout << "Do you like cats:" << endl;
+  cout << "Do you like cats?" << endl;
   cin >> cats;
-  if (cats == 'y'
+  if (cats == 'y')
   cout << "meow" << endl;
 }
