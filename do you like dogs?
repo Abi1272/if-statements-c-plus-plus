@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+	string dogs;
+
+	cout << "Do you like dogs?" << endl;
+	cin >> dogs;
+	if (dogs == "yes")
+		cout << "woof!" << endl;
+	else 
+		cout << "meow!" << endl;
+}
